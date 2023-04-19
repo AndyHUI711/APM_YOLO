@@ -39,7 +39,10 @@ Total 150.8ms FPS 6.63
 
 ### yolov5nu_pt_osnet_x1_0_imagenet
 Speed: 3.9ms pre-process, 61.2ms inference, 6.9ms NMS, 1.4ms bytetrack update per image at shape (1, 3, 640, 640)\
-Total 73.4ms FPS 13.62
+Total 73.4ms FPS 13.62\
+ Usb-cam\
+Speed: 36.5ms pre-process, 206.5ms inference, 84.5ms NMS, 10.2ms bytetrack update per image at shape (1, 3, 640, 640)\
+Total 337.7 FPS 2.96\
 
 ### ImportError: /usr/lib/aarch64-linux-gnu/libgomp.so.1: cannot allocate memory in static TLS block
 ### export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
@@ -56,7 +59,19 @@ Total 187ms FPS 5.35
 ### yolov5nu_engine_osnet_x1_0_imagenet
 Speed: 4.5ms pre-process, 74.4ms inference, 8.1ms NMS, 1.6ms bytetrack update per image at shape (1, 3, 640, 640)\
 Total 88.6ms FPS 11.29
+ Usb-cam\
+Speed: 74.9ms pre-process, 146.9ms inference, 44.0ms NMS, 7.9ms bytetrack update per image at shape (1, 3, 640, 640)\
+Total 273.7 FPS 3.65\
 
+
+v8n:\
+Speed: 1.6ms pre-process, 98.2ms inference, 7.6ms NMS, 3.4ms bytetrack update per image at shape (1, 3, 640, 640)\
+
+v5nu:\
+Speed: 2.0ms pre-process, 88.5ms inference, 10.8ms NMS, 4.1ms bytetrack update per image at shape (1, 3, 640, 640)\
+
+v8n engie:
+Speed: 2.4ms pre-process, 72.4ms inference, 1.3ms NMS, 0.0ms bytetrack update per image at shape (1, 3, 640, 640)\
 
 
 
