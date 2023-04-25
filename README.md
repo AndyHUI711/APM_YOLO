@@ -1,5 +1,10 @@
 # APM_YOLO
 
+BuilderFlag::kTF32 is set but hardware does not support TF32. Disabling TF32.\
+TensorRT 8.6.0\
+
+
+
 Test Results:\
 Using Ubuntu 20.04, Python-3.7.13 torch-1.12.1 CUDA:0 (NVIDIA GeForce RTX 2060 with Max-Q Design, 5918MiB) \
 Test Video 248 frame, FPS = 1/(TOTAL PROCESS TIME)
